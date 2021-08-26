@@ -17,23 +17,54 @@ public class codePanel : MonoBehaviour
     [SerializeField]
     private GameObject abrirPorta;
 
+    bool botaoApertado; //checa se a pessoa apertou o botão de confirmar
+
+    //Sons 
+
+    [SerializeField]
+    private AudioSource somAcerto;
+
+    [SerializeField]
+    private AudioSource somErro;
     // Update is called once per frame
     void Update()
     {
         textoDoCodigo.text = Codigo;
 
-        if (Codigo == CodigoCorreto) //o que ele faz quando vc digita o codigo correto
-        {
-            abrirPorta.SetActive(true);
-            //adicionar som quando abre
-        }
+        if (botaoApertado)
+            if (Codigo == CodigoCorreto) //o que ele faz quando vc digita o codigo correto
+            {
+                abrirPorta.SetActive(true);
+                //adicionar som quando abre
 
-        if (Codigo.Length >= 5) //zerar caso chegue no maximo de numeros
-            Codigo = "";
+               // somAcerto.Play();
+                this.gameObject.SetActive(false);
+                botaoApertado = false;
+            }
+            else
+            {
+               // somErro.Play();
+                botaoApertado = false;
+                Codigo = "";
+            }
+
+
+       // if (Codigo.Length >= 5) //zerar caso chegue no maximo de numeros
+          //  Codigo = "";
     }
 
     public void AdicionarDigito(string digito) //poder digitar no painel
     {
         Codigo += digito;
+    }
+
+    public void Checar()
+    {
+        botaoApertado = true;
+    }
+
+    public void Apagar()
+    {
+         Codigo = "";
     }
 }
