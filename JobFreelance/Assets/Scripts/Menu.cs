@@ -9,22 +9,14 @@ public class Menu : MonoBehaviour
     [SerializeField]
     private string cenaInicial;
 
+    [SerializeField]
+    private string fase2;
+
     //transição
 
     public Animator transi; //animator da transição
     public float tempoTransi;
 
-    
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void Sair()
     {
@@ -34,6 +26,11 @@ public class Menu : MonoBehaviour
     public void Iniciar()
     {
         StartCoroutine(CarregarJogo());
+    }
+
+    public void Fase2()
+    {
+        StartCoroutine(CarregarFase2());
     }
 
 
@@ -54,5 +51,14 @@ public class Menu : MonoBehaviour
         yield return new WaitForSeconds(tempoTransi);
 
         Application.Quit();
+    }
+
+    IEnumerator CarregarFase2()
+    {
+        transi.SetTrigger("Iniciar"); //tocar a animação
+
+        yield return new WaitForSeconds(tempoTransi);
+
+        SceneManager.LoadScene(fase2);
     }
 }

@@ -6265,6 +6265,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41396177f623a094996c44e1cf72eaf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textoDoCodigo: {fileID: 0}
+  CodigoCorreto: 
+  abrirPorta: {fileID: 0}
+  desligarDialogo: {fileID: 0}
+  somAcerto: {fileID: 0}
+  somErro: {fileID: 0}
 --- !u!1 &1277118936
 GameObject:
   m_ObjectHideFlags: 0

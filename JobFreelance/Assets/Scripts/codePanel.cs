@@ -17,6 +17,9 @@ public class codePanel : MonoBehaviour
     [SerializeField]
     private GameObject abrirPorta;
 
+    [SerializeField]
+    private GameObject desligarDialogo;
+
     bool botaoApertado; //checa se a pessoa apertou o botão de confirmar
 
     //Sons 
@@ -36,6 +39,9 @@ public class codePanel : MonoBehaviour
             {
                 abrirPorta.SetActive(true);
                 //adicionar som quando abre
+
+                desligarDialogo.SetActive(false);
+                //desligar o dialogo da porta fechada
 
                // somAcerto.Play();
                 this.gameObject.SetActive(false);
