@@ -1174,7 +1174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3412128194149374802, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 901.5304
+      value: 901.53
       objectReference: {fileID: 0}
     - target: {fileID: 3412128194149374802, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1214,7 +1214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3412128194149374802, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 152.17816
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 3412128194149374802, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1228,6 +1228,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3412128194149374812, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc52ac7ae76304e45a099e13955e39c3, type: 3}
+    - target: {fileID: 3412128194149374812, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_Color.a
+      value: 0.50980395
+      objectReference: {fileID: 0}
     - target: {fileID: 3412128194149374813, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_Name
       value: caixa de dialogo
@@ -1236,6 +1244,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202064, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202064, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7288faa6ae2eef640acd92d8c4dacd5f, type: 3}
+    - target: {fileID: 3412128194443202065, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202065, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6b73cc2518b203d45924039ada01df11, type: 3}
+    - target: {fileID: 3412128194443202065, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bfd404d180f73ca4aac1858175bc7dad, type: 3}
     - target: {fileID: 3412128194443202065, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1243,6 +1271,26 @@ PrefabInstance:
     - target: {fileID: 3412128194443202065, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ProximaFrase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202066, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 162.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202066, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 58.119
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202066, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128194443202066, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412128195051549761, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
+      propertyPath: m_text
+      value: "   \n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c74d9e3f64ecb734a9ca2f0ae69ef324, type: 3}
